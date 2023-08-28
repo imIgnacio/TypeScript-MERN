@@ -1,0 +1,4 @@
+vite.config.ts
+__tests__
+**/*.test.tsx
+**/*.test.ts

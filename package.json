@@ -1,0 +1,29 @@
+{
+  "name": "masterasesor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.ts",
+  "scripts": {
+    "start": "cd server && npm run start",
+    "test:client": "cd client && npm run test",
+    "test:server": "cd server && npm run test",
+    "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
+    "watch": "cd server && npm run watch",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd server && npm run tsc && cd ../client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imIgnacio/masterasesor.git"
+  },
+  "author": "Ignacio Diaz <nachodiaz99@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imIgnacio/masterasesor/issues"
+  },
+  "homepage": "https://github.com/imIgnacio/masterasesor#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

@@ -1,0 +1,7 @@
+# Ignore artifacts:
+build
+coverage
+test
+**.test.tsx
+**.test.ts
+vite.config.ts
